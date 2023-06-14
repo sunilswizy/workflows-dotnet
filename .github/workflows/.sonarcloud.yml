@@ -16,7 +16,6 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-
       - name: Build and analyze
         env:
           GITHUB_TOKEN: 0ec24bf8-94cd-4e79-b1f1-00b50cb4c56c
